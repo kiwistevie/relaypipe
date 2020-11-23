@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dal.Common\Dal.Common.csproj" />
+    <ProjectReference Include="..\Relaypipe.Dal\Relaypipe.Dal.csproj" />
+    <ProjectReference Include="..\Relaypipe.Domain\Relaypipe.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
